@@ -505,14 +505,14 @@ export function ArchiveClient({ taxonomy }: Props) {
               Know a robot that should be in the archive? Submit it via the form
               below or{" "}
               <a
-                href="https://github.com/buxor"
+                href="https://github.com/systemarobotica/archive"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-accent-blue hover:underline"
               >
-                fork the repo on GitHub
+                fork the archive repo on GitHub
               </a>{" "}
-              and add it to{" "}
+              and add your entry to{" "}
               <code className="text-xs bg-card-bg px-1 py-0.5 rounded">
                 taxonomy.json
               </code>{" "}
