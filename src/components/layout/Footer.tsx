@@ -48,7 +48,7 @@ export function Footer() {
             ResearchGate <ExternalLink size={10} />
           </a>
           <a
-            href="https://github.com/buxor"
+            href="https://github.com/systemarobotica"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-foreground transition-colors inline-flex items-center gap-1"
