@@ -1,0 +1,385 @@
+{
+  "name": "Robotica",
+  "level": "realm",
+  "definition": "The realm of constructed, artificial intelligences, encompassing all forms of artificial material constructs that sense, decide and operate autonomously within the physical world.",
+  "children": [
+    {
+      "name": "Androids",
+      "level": "type",
+      "definition": "Robots constructed to mimic humans, in appearance, likeness and abilities.",
+      "color": "#64748b",
+      "children": [
+        {
+          "name": "Mechanoids",
+          "level": "scheme",
+          "definition": "Mechanical humanoid robots, constructed mainly from metallic or non-pliable materials.",
+          "examples": [
+            {
+              "marque": "Boston Dynamics",
+              "model": "Atlas"
+            },
+            {
+              "marque": "Apptronik",
+              "model": "Apollo"
+            },
+            {
+              "marque": "Honda",
+              "model": "Asimo"
+            },
+            {
+              "marque": "Sanctuary AI",
+              "model": "Phoenix"
+            },
+            {
+              "marque": "Figure",
+              "model": "01"
+            },
+            {
+              "marque": "Unitree",
+              "model": "H1"
+            },
+            {
+              "marque": "Agility Robotics",
+              "model": "Digit"
+            },
+            {
+              "marque": "Tesla",
+              "model": "Optimus Gen 2"
+            },
+            {
+              "marque": "Cybot Galactica",
+              "model": "3PO Protocol Droid",
+              "fictional": true
+            }
+          ]
+        },
+        {
+          "name": "Synthoids",
+          "level": "scheme",
+          "definition": "Synthetic humanoid robots virtually indistinguishable from humans in appearance, with lifelike skin made from synthetic materials.",
+          "examples": [
+            {
+              "marque": "Hanson Robotics",
+              "model": "Sophia"
+            },
+            {
+              "marque": "NTU",
+              "model": "Nadine"
+            },
+            {
+              "marque": "Geminoid",
+              "model": "HI"
+            },
+            {
+              "marque": "Geminoid",
+              "model": "DK"
+            },
+            {
+              "marque": "Unknown",
+              "model": "Soong-type Android",
+              "unit": "Data",
+              "fictional": true
+            }
+          ]
+        },
+        {
+          "name": "Plastoids",
+          "level": "scheme",
+          "definition": "Flexible humanoid robots made with pliable materials.",
+          "examples": [
+            {
+              "marque": "1X",
+              "model": "NEO"
+            }
+          ]
+        },
+        {
+          "name": "Colossals",
+          "level": "scheme",
+          "definition": "Gigantic humanoid robots over 5 meters in size, constructed of any material.",
+          "examples": [
+            {
+              "marque": "Gundam Factory",
+              "model": "RX-78F00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bionics",
+      "level": "type",
+      "definition": "Robots constructed to mimic non-human biological creatures, in appearance, likeness and abilities.",
+      "color": "#166534",
+      "children": [
+        {
+          "name": "Zooids",
+          "level": "scheme",
+          "definition": "Biotica-inspired robots, with a likeness for existing known animals or insects, larger than 1mm in size.",
+          "examples": [
+            {
+              "marque": "Boston Dynamics",
+              "model": "Spot"
+            },
+            {
+              "marque": "Unitree",
+              "model": "Go2"
+            },
+            {
+              "marque": "Festo",
+              "model": "BionicBird"
+            }
+          ]
+        },
+        {
+          "name": "Microbots",
+          "level": "scheme",
+          "definition": "Tiny biotica-inspired robots, with either a likeness for existing known animals or insects, or novel designforms smaller than 1mm in size.",
+          "examples": []
+        },
+        {
+          "name": "Nanobots",
+          "level": "scheme",
+          "definition": "Microscopic biotica-inspired robots, with either a likeness for existing known animals or insects, or novel designforms smaller than 1µm in size.",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "name": "Vessels",
+      "level": "type",
+      "definition": "Robots designed for movement, transportation and exploration, across the physical planes of land, air, water, or space.",
+      "color": "#0d9488",
+      "children": [
+        {
+          "name": "Autons",
+          "level": "scheme",
+          "definition": "Vehicular robots designed to traverse and operate over land.",
+          "examples": [
+            {
+              "marque": "Robomart",
+              "model": "RM5 Robocourier"
+            },
+            {
+              "marque": "Waymo",
+              "model": "Jaguar I-PACE"
+            },
+            {
+              "marque": "Cruise",
+              "model": "Origin"
+            },
+            {
+              "marque": "Nuro",
+              "model": "R3"
+            },
+            {
+              "marque": "Starship Technologies",
+              "model": "Delivery Robot"
+            }
+          ]
+        },
+        {
+          "name": "Drones",
+          "level": "scheme",
+          "definition": "Aerial robots designed to traverse and operate in the air.",
+          "examples": [
+            {
+              "marque": "DJI",
+              "model": "Mavic 3"
+            },
+            {
+              "marque": "Wing (Alphabet)",
+              "model": "Wing Delivery Drone"
+            },
+            {
+              "marque": "Zipline",
+              "model": "P2 Zip"
+            }
+          ]
+        },
+        {
+          "name": "Mariners",
+          "level": "scheme",
+          "definition": "Underwater robots designed to traverse and operate on or below water.",
+          "examples": [
+            {
+              "marque": "Saildrone",
+              "model": "Explorer"
+            }
+          ]
+        },
+        {
+          "name": "Rovers",
+          "level": "scheme",
+          "definition": "Exploration robots designed to traverse and operate underground, in space or in extraterrestrial environments.",
+          "examples": [
+            {
+              "marque": "NASA/JPL",
+              "model": "Perseverance"
+            },
+            {
+              "marque": "NASA/JPL",
+              "model": "Curiosity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automata",
+      "level": "type",
+      "definition": "Stationary robots or mobile robots that are meant to operate within a single contained, fixed, or controlled environment.",
+      "color": "#d97706",
+      "children": [
+        {
+          "name": "Articulators",
+          "level": "scheme",
+          "definition": "Robotic arms, designed for precise manipulation and operation within fixed environments.",
+          "examples": [
+            {
+              "marque": "KUKA",
+              "model": "KR 1000 Titan"
+            },
+            {
+              "marque": "ABB",
+              "model": "IRB 6700"
+            },
+            {
+              "marque": "Universal Robots",
+              "model": "UR5e"
+            }
+          ]
+        },
+        {
+          "name": "Mechatrons",
+          "level": "scheme",
+          "definition": "Large movable industrial robots weighing more than 200kg, designed for repetitive operation within a single fixed environment.",
+          "examples": [
+            {
+              "marque": "FANUC",
+              "model": "M-2000iA"
+            }
+          ]
+        },
+        {
+          "name": "Terminals",
+          "level": "scheme",
+          "definition": "Stationary immobile robots, designed to operate within a fixed environment.",
+          "examples": [
+            {
+              "marque": "Amazon",
+              "model": "Alexa Echo"
+            }
+          ]
+        },
+        {
+          "name": "Servons",
+          "level": "scheme",
+          "definition": "Service-oriented robots weighing less than 200kg, designed for interactive service within fixed environments.",
+          "examples": [
+            {
+              "marque": "Bear Robotics",
+              "model": "Servi"
+            },
+            {
+              "marque": "SoftBank Robotics",
+              "model": "Pepper"
+            }
+          ]
+        },
+        {
+          "name": "Automatons",
+          "level": "scheme",
+          "definition": "Interactive robot companions or robot toys smaller than 1 meter, designed for companionship or operation within fixed environments.",
+          "examples": [
+            {
+              "marque": "Sony",
+              "model": "Aibo"
+            },
+            {
+              "marque": "Anki",
+              "model": "Vector"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Megatech",
+      "level": "type",
+      "definition": "Massive robot megastructures over 1 million cubic meters in volume such as robot starships or planetary sized robots.",
+      "color": "#7c3aed",
+      "children": [
+        {
+          "name": "Planetoids",
+          "level": "scheme",
+          "definition": "Planet-shaped robots over 1 million m³ in volume.",
+          "examples": [
+            {
+              "marque": "Unknown",
+              "model": "Unicron",
+              "fictional": true
+            }
+          ]
+        },
+        {
+          "name": "Starships",
+          "level": "scheme",
+          "definition": "Large spaceship robots over 1 million m³ in volume designed to travel great distances.",
+          "examples": [
+            {
+              "marque": "Unknown",
+              "model": "USP Sulaco",
+              "fictional": true
+            }
+          ]
+        },
+        {
+          "name": "Arcologies",
+          "level": "scheme",
+          "definition": "Very large robotic megastructures designed to either house inhabitants or to undertake exploration or scientific work well over 1 million m³ in volume.",
+          "examples": []
+        }
+      ]
+    },
+    {
+      "name": "Spectra",
+      "level": "type",
+      "definition": "Robots that challenge and transcend traditional physical boundaries, encompassing physical entities with ethereal, virtual, or shape-shifting qualities.",
+      "color": "#e11d48",
+      "children": [
+        {
+          "name": "Virtuoids",
+          "level": "scheme",
+          "definition": "Virtual or holographic robot entities, within a physical housing.",
+          "examples": [
+            {
+              "marque": "Unknown",
+              "model": "Emergency Medical Hologram",
+              "unit": "The Doctor",
+              "fictional": true
+            }
+          ]
+        },
+        {
+          "name": "Morphbots",
+          "level": "scheme",
+          "definition": "Shape-shifting robots.",
+          "examples": [
+            {
+              "marque": "Unknown",
+              "model": "T-1000",
+              "fictional": true
+            }
+          ]
+        },
+        {
+          "name": "Ethereals",
+          "level": "scheme",
+          "definition": "Non-conventional or energy-based robotic entities that defy the current laws of physics.",
+          "examples": []
+        }
+      ]
+    }
+  ]
+}

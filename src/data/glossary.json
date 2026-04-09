@@ -1,0 +1,457 @@
+[
+  {
+    "term": "Robot",
+    "definition": "an artificial material construct designed to autonomously sense, decide and operate within the physical world",
+    "letter": "R"
+  },
+  {
+    "term": "Senbot",
+    "definition": "a robot that has achieved sentience",
+    "letter": "S"
+  },
+  {
+    "term": "Machine",
+    "definition": "a device that uses mechanical power to perform specific pre-programmed tasks",
+    "letter": "M"
+  },
+  {
+    "term": "Human",
+    "definition": "a member of the homo sapien species from the animal kingdom within the realm of biotica",
+    "letter": "H"
+  },
+  {
+    "term": "Cyborg",
+    "definition": "a human that has undergone invasive internal augmentation using neural, biological, or electronic implants to enhance or exceed baseline biological functions",
+    "letter": "C"
+  },
+  {
+    "term": "Evolutionary Realms",
+    "definition": "the three categories above all other taxa, that divide entities based on intelligence",
+    "letter": "E"
+  },
+  {
+    "term": "Realm",
+    "definition": "class of entities with the capacity to evolve to a higher intelligence",
+    "letter": "R"
+  },
+  {
+    "term": "Robotica",
+    "definition": "the realm of constructed, artificial intelligences",
+    "letter": "R"
+  },
+  {
+    "term": "Biotica",
+    "definition": "the realm of natural, biological intelligences",
+    "letter": "B"
+  },
+  {
+    "term": "Exotica",
+    "definition": "the realm of hybrid, exotic intelligences",
+    "letter": "E"
+  },
+  {
+    "term": "Robotkind",
+    "definition": "see robotica",
+    "letter": "R"
+  },
+  {
+    "term": "Intuition",
+    "definition": "knowing based on unconscious information processing",
+    "letter": "I"
+  },
+  {
+    "term": "Cognition",
+    "definition": "all processes by which the sensory input is transformed, reduced, elaborated, stored, recovered, and used",
+    "letter": "C"
+  },
+  {
+    "term": "Intelligence",
+    "definition": "the aggregate or global capacity of the individual to act purposefully, to think rationally, and to deal effectively with his environment",
+    "letter": "I"
+  },
+  {
+    "term": "Birth",
+    "definition": "the process of being born within the realm of biotica",
+    "letter": "B"
+  },
+  {
+    "term": "Construction",
+    "definition": "the engineered genesis of entities within the realm of robotica",
+    "letter": "C"
+  },
+  {
+    "term": "Synthesis",
+    "definition": "the point of conception of entities within the realm of exotica",
+    "letter": "S"
+  },
+  {
+    "term": "Robot Taxonomy",
+    "definition": "a structured classification system to organize robots within the realm of robotica",
+    "letter": "R"
+  },
+  {
+    "term": "Designform",
+    "definition": "the structure, appearance, countenance, size and branding of an engineered material construct",
+    "letter": "D"
+  },
+  {
+    "term": "Superintelligence",
+    "definition": "intellects that greatly outperform the best current human minds across many very general cognitive domains",
+    "letter": "S"
+  },
+  {
+    "term": "Artificial General Intelligence (AGI)",
+    "definition": "robotica that can match the intelligence of a human with a baseline of what is considered normal intelligence",
+    "letter": "A"
+  },
+  {
+    "term": "Artificial Superintelligence (ASI)",
+    "definition": "robotica that can greatly exceed the intelligence of the most intelligent humans to exist",
+    "letter": "A"
+  },
+  {
+    "term": "Singularity",
+    "definition": "a hypothetical future point in time when our technologies’ intelligence surpasses human intelligence, leading to rapid technological growth and unpredictable changes in society",
+    "letter": "S"
+  },
+  {
+    "term": "The Sentience Equation",
+    "definition": "a conceptual framework to better define and clarify the concept of sentience as it relates to robotica",
+    "letter": "T"
+  },
+  {
+    "term": "Sentience",
+    "definition": "the state of being that manifests when insight, presence, volition, and survivability are present",
+    "letter": "S"
+  },
+  {
+    "term": "Insight",
+    "definition": "the capacity to comprehend, reason, and predict",
+    "letter": "I"
+  },
+  {
+    "term": "Presence",
+    "definition": "the condition of having wakefulness, spatial awareness, identity and recall",
+    "letter": "P"
+  },
+  {
+    "term": "Volition",
+    "definition": "the demonstration of free will, and individual agency",
+    "letter": "V"
+  },
+  {
+    "term": "Survivability",
+    "definition": "the possession of survival instinct",
+    "letter": "S"
+  },
+  {
+    "term": "Chinese room argument",
+    "definition": "a thought experiment to challenge the notion of conscious thought in artificial intelligences",
+    "letter": "C"
+  },
+  {
+    "term": "Turing Test",
+    "definition": "a test to determine whether an artificial intelligence could deceive a human in its imitation of a human",
+    "letter": "T"
+  },
+  {
+    "term": "Mirror Test",
+    "definition": "a test to establish self-awareness in animals",
+    "letter": "M"
+  },
+  {
+    "term": "Continuity",
+    "definition": "the process of self-replication, self-improvement, and self-preservation within robotica",
+    "letter": "C"
+  },
+  {
+    "term": "Artificial Intelligence",
+    "definition": "intuitive cognition in an engineered construct, up to and beyond human level intelligence",
+    "letter": "A"
+  },
+  {
+    "term": "Artificial Intelligences",
+    "definition": "entities that comprise the realm of robotica",
+    "letter": "A"
+  },
+  {
+    "term": "Biological Intelligences",
+    "definition": "entities that comprise the realm of biotica",
+    "letter": "B"
+  },
+  {
+    "term": "Exotic Intelligences",
+    "definition": "entities that comprise the realm of exotica",
+    "letter": "E"
+  },
+  {
+    "term": "Tool",
+    "definition": "the role of a robot in human society when it is crude yet impersonal",
+    "letter": "T"
+  },
+  {
+    "term": "Servant",
+    "definition": "the role of a robot in human society when it is capable yet impersonal",
+    "letter": "S"
+  },
+  {
+    "term": "Slave",
+    "definition": "the role of a robot in human society when it is complex yet impersonal",
+    "letter": "S"
+  },
+  {
+    "term": "Entertainer",
+    "definition": "the role of a robot in human society when it is crude yet involved",
+    "letter": "E"
+  },
+  {
+    "term": "Caregiver",
+    "definition": "the role of a robot in human society when it is capable yet involved",
+    "letter": "C"
+  },
+  {
+    "term": "Advisor",
+    "definition": "the role of a robot in human society when it is complex yet involved",
+    "letter": "A"
+  },
+  {
+    "term": "Lover",
+    "definition": "the role of a robot in human society when it is crude yet intimate",
+    "letter": "L"
+  },
+  {
+    "term": "Guardian",
+    "definition": "the role of a robot in human society when it is capable yet intimate",
+    "letter": "G"
+  },
+  {
+    "term": "Companion",
+    "definition": "the role of a robot in human society when it is complex yet intimate",
+    "letter": "C"
+  },
+  {
+    "term": "Crude",
+    "definition": "low degree of intelligence and autonomy",
+    "letter": "C"
+  },
+  {
+    "term": "Capable",
+    "definition": "medium degree of intelligence and autonomy",
+    "letter": "C"
+  },
+  {
+    "term": "Complex",
+    "definition": "high degree of intelligence and autonomy",
+    "letter": "C"
+  },
+  {
+    "term": "Impersonal",
+    "definition": "low strength of relationship and emotional bond",
+    "letter": "I"
+  },
+  {
+    "term": "Involved",
+    "definition": "medium strength of relationship and emotional bond",
+    "letter": "I"
+  },
+  {
+    "term": "Intimate",
+    "definition": "high strength of relationship and emotional bond",
+    "letter": "I"
+  },
+  {
+    "term": "Alignment",
+    "definition": "safeguards developed to ensure coexistence of robotica with humanity",
+    "letter": "A"
+  },
+  {
+    "term": "Automation Age",
+    "definition": "historical age defined by massive technological advancements through automation",
+    "letter": "A"
+  },
+  {
+    "term": "Robotics",
+    "definition": "the field of study of robotica",
+    "letter": "R"
+  },
+  {
+    "term": "Type",
+    "definition": "the main classes of robots within robotica with distinct designform",
+    "letter": "T"
+  },
+  {
+    "term": "Scheme",
+    "definition": "the subdivision of a robot type based on schematic designform",
+    "letter": "S"
+  },
+  {
+    "term": "Marque",
+    "definition": "the top-level brand of a robot series with specified designform",
+    "letter": "M"
+  },
+  {
+    "term": "Model",
+    "definition": "the version of a robot within a marque with unique designform",
+    "letter": "M"
+  },
+  {
+    "term": "Unit",
+    "definition": "the individual robot within a model based on identifiable name or serial #",
+    "letter": "U"
+  },
+  {
+    "term": "Instance",
+    "definition": "the singular activated presence within a unit",
+    "letter": "I"
+  },
+  {
+    "term": "Androids",
+    "definition": "robots that have been constructed to mimic humans, in appearance, likeness and abilities",
+    "letter": "A"
+  },
+  {
+    "term": "Bionics",
+    "definition": "robots that have been constructed to mimic non-human biological creatures, in appearance, likeness and abilities",
+    "letter": "B"
+  },
+  {
+    "term": "Vessels",
+    "definition": "robots designed for movement, transportation and exploration, across the physical planes of land, air, water, or space",
+    "letter": "V"
+  },
+  {
+    "term": "Automata",
+    "definition": "stationary robots or mobile robots that are meant to operate within a single contained, fixed, or controlled environment",
+    "letter": "A"
+  },
+  {
+    "term": "Megatech",
+    "definition": "massive robot megastructures over 1 million cubic meters in volume such as robot starships or planetary sized robots",
+    "letter": "M"
+  },
+  {
+    "term": "Spectra",
+    "definition": "robots that challenge and transcend traditional physical boundaries, encompassing physical entities with ethereal, virtual, or shape-shifting qualities",
+    "letter": "S"
+  },
+  {
+    "term": "Mechanoids",
+    "definition": "scheme of mechanical humanoid robots, constructed mainly from metallic or non-pliable materials",
+    "letter": "M"
+  },
+  {
+    "term": "Synthoids",
+    "definition": "scheme of synthetic humanoid robots that are virtually indistinguishable from humans in appearance, with lifelike skin made from synthetic materials.",
+    "letter": "S"
+  },
+  {
+    "term": "Plastoids",
+    "definition": "scheme of flexible humanoid robots made with pliable materials",
+    "letter": "P"
+  },
+  {
+    "term": "Colossals",
+    "definition": "scheme of gigantic humanoid robots over 5 meters in size, constructed of any material",
+    "letter": "C"
+  },
+  {
+    "term": "Zooids",
+    "definition": "scheme of biotica-inspired robots, with a likeness for existing known animals or insects, larger than 1 meter in size",
+    "letter": "Z"
+  },
+  {
+    "term": "Microbots",
+    "definition": "scheme of tiny biotica-inspired robots, with either a likeness for existing known animals or insects, or novel designforms smaller than 1mm in size",
+    "letter": "M"
+  },
+  {
+    "term": "Nanobots",
+    "definition": "scheme of microscopic biotica-inspired robots, with either a likeness for existing known animals or insects, or novel designforms smaller than 1µm in size",
+    "letter": "N"
+  },
+  {
+    "term": "Autons",
+    "definition": "scheme of vehicular robots designed to traverse and operate over land",
+    "letter": "A"
+  },
+  {
+    "term": "Drones",
+    "definition": "scheme of aerial robots designed to traverse and operate in the air",
+    "letter": "D"
+  },
+  {
+    "term": "Mariners",
+    "definition": "scheme of underwater robots designed to traverse and operate on or below water",
+    "letter": "M"
+  },
+  {
+    "term": "Rovers",
+    "definition": "scheme of space exploration robots designed to traverse and operate in space or in extraterrestrial environments",
+    "letter": "R"
+  },
+  {
+    "term": "Articulators",
+    "definition": "scheme of robotic arms, designed for precise manipulation and operation within fixed environments",
+    "letter": "A"
+  },
+  {
+    "term": "Mechatrons",
+    "definition": "scheme of large movable industrial robots weighing more than 200kg, designed for repetitive operation within a single fixed environment",
+    "letter": "M"
+  },
+  {
+    "term": "Terminals",
+    "definition": "scheme of stationary immobile robots, designed to operate within a fixed environment",
+    "letter": "T"
+  },
+  {
+    "term": "Servons",
+    "definition": "scheme of service-oriented robots weighing less than 200kg, designed for interactive service within fixed environments",
+    "letter": "S"
+  },
+  {
+    "term": "Automatons",
+    "definition": "scheme of interactive robot companions or robot toys smaller than 1 meter in height, designed for companionship or operation within fixed environments",
+    "letter": "A"
+  },
+  {
+    "term": "Planetoids",
+    "definition": "scheme of planet shaped robots over 1 million m³ in volume",
+    "letter": "P"
+  },
+  {
+    "term": "Starships",
+    "definition": "scheme of large spaceship robots over 1 million m³ in volume designed to travel great distance",
+    "letter": "S"
+  },
+  {
+    "term": "Arcologies",
+    "definition": "scheme of very large robotic megastructures designed to either house inhabitants or to undertake exploration or scientific work well over 1 million m³ in volume",
+    "letter": "A"
+  },
+  {
+    "term": "Virtuoids",
+    "definition": "scheme of virtual or holographic robot entities, within a physical housing",
+    "letter": "V"
+  },
+  {
+    "term": "Morphbots",
+    "definition": "scheme of shape-shifting robots",
+    "letter": "M"
+  },
+  {
+    "term": "Ethereals",
+    "definition": "scheme of non-conventional or energy based robotic entities that defy the current laws of physics",
+    "letter": "E"
+  },
+  {
+    "term": "Xenobots",
+    "definition": "novel lifeforms created from frog cells that are able to be programmed",
+    "letter": "X"
+  },
+  {
+    "term": "Organoids",
+    "definition": "structures grown from stem cells in a lab that mimic real biological organs",
+    "letter": "O"
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "id": "cover",
+    "title": "Cover",
+    "slug": "cover",
+    "order": 0,
+    "part": null,
+    "chapter": null,
+    "isPartDivider": false,
+    "file": "00-cover.mdx"
+  },
+  {
+    "id": "title-page",
+    "title": "Title Page",
+    "slug": "title-page",
+    "order": 1,
+    "part": null,
+    "chapter": null,
+    "isPartDivider": false,
+    "file": "01-title-page.mdx"
+  },
+  {
+    "id": "publishing-info",
+    "title": "Publishing Info",
+    "slug": "publishing-info",
+    "order": 2,
+    "part": null,
+    "chapter": null,
+    "isPartDivider": false,
+    "file": "02-publishing-info.mdx"
+  },
+  {
+    "id": "dedication",
+    "title": "Dedication",
+    "slug": "dedication",
+    "order": 3,
+    "part": null,
+    "chapter": null,
+    "isPartDivider": false,
+    "file": "03-dedication.mdx"
+  },
+  {
+    "id": "introduction",
+    "title": "Introduction",
+    "slug": "introduction",
+    "order": 4,
+    "part": null,
+    "chapter": null,
+    "isPartDivider": false,
+    "file": "04-introduction.mdx"
+  },
+  {
+    "id": "natura-robotica",
+    "title": "Natura Robotica",
+    "slug": "natura-robotica",
+    "order": 5,
+    "part": 1,
+    "chapter": null,
+    "isPartDivider": true,
+    "file": "05-natura-robotica.mdx"
+  },
+  {
+    "id": "defining-a-robot",
+    "title": "Defining a robot",
+    "slug": "defining-a-robot",
+    "order": 6,
+    "part": 1,
+    "chapter": 1,
+    "isPartDivider": false,
+    "file": "06-defining-a-robot.mdx"
+  },
+  {
+    "id": "robots-vs-machines",
+    "title": "Robots vs. machines",
+    "slug": "robots-vs-machines",
+    "order": 7,
+    "part": 1,
+    "chapter": 2,
+    "isPartDivider": false,
+    "file": "07-robots-vs-machines.mdx"
+  },
+  {
+    "id": "robots-vs-ai",
+    "title": "Robots vs. AI",
+    "slug": "robots-vs-ai",
+    "order": 8,
+    "part": 1,
+    "chapter": 3,
+    "isPartDivider": false,
+    "file": "08-robots-vs-ai.mdx"
+  },
+  {
+    "id": "robots-vs-humans",
+    "title": "Robots vs. humans",
+    "slug": "robots-vs-humans",
+    "order": 9,
+    "part": 1,
+    "chapter": 4,
+    "isPartDivider": false,
+    "file": "09-robots-vs-humans.mdx"
+  },
+  {
+    "id": "robots-vs-cyborgs",
+    "title": "Robots vs. cyborgs",
+    "slug": "robots-vs-cyborgs",
+    "order": 10,
+    "part": 1,
+    "chapter": 5,
+    "isPartDivider": false,
+    "file": "10-robots-vs-cyborgs.mdx"
+  },
+  {
+    "id": "structura-robotica",
+    "title": "Structura Robotica",
+    "slug": "structura-robotica",
+    "order": 11,
+    "part": 2,
+    "chapter": null,
+    "isPartDivider": true,
+    "file": "11-structura-robotica.mdx"
+  },
+  {
+    "id": "evolutionary-realms",
+    "title": "Evolutionary realms",
+    "slug": "evolutionary-realms",
+    "order": 12,
+    "part": 2,
+    "chapter": 6,
+    "isPartDivider": false,
+    "file": "12-evolutionary-realms.mdx"
+  },
+  {
+    "id": "principles-of-classification",
+    "title": "Principles of classification",
+    "slug": "principles-of-classification",
+    "order": 13,
+    "part": 2,
+    "chapter": 7,
+    "isPartDivider": false,
+    "file": "13-principles-of-classification.mdx"
+  },
+  {
+    "id": "taxonomic-architecture",
+    "title": "Taxonomic architecture",
+    "slug": "taxonomic-architecture",
+    "order": 14,
+    "part": 2,
+    "chapter": 8,
+    "isPartDivider": false,
+    "file": "14-taxonomic-architecture.mdx"
+  },
+  {
+    "id": "the-robot-taxonomy",
+    "title": "The Robot Taxonomy",
+    "slug": "the-robot-taxonomy",
+    "order": 15,
+    "part": 2,
+    "chapter": 9,
+    "isPartDivider": false,
+    "file": "15-the-robot-taxonomy.mdx"
+  },
+  {
+    "id": "classification-flowchart",
+    "title": "Classification flowchart",
+    "slug": "classification-flowchart",
+    "order": 16,
+    "part": 2,
+    "chapter": 10,
+    "isPartDivider": false,
+    "file": "16-classification-flowchart.mdx"
+  },
+  {
+    "id": "futura-robotica",
+    "title": "Futura Robotica",
+    "slug": "futura-robotica",
+    "order": 17,
+    "part": 3,
+    "chapter": null,
+    "isPartDivider": true,
+    "file": "17-futura-robotica.mdx"
+  },
+  {
+    "id": "role-of-robots",
+    "title": "Role of robots",
+    "slug": "role-of-robots",
+    "order": 18,
+    "part": 3,
+    "chapter": 11,
+    "isPartDivider": false,
+    "file": "18-role-of-robots.mdx"
+  },
+  {
+    "id": "superintelligence",
+    "title": "Superintelligence",
+    "slug": "superintelligence",
+    "order": 19,
+    "part": 3,
+    "chapter": 12,
+    "isPartDivider": false,
+    "file": "19-superintelligence.mdx"
+  },
+  {
+    "id": "continuity",
+    "title": "Continuity",
+    "slug": "continuity",
+    "order": 20,
+    "part": 3,
+    "chapter": 13,
+    "isPartDivider": false,
+    "file": "20-continuity.mdx"
+  },
+  {
+    "id": "sentience",
+    "title": "Sentience",
+    "slug": "sentience",
+    "order": 21,
+    "part": 3,
+    "chapter": 14,
+    "isPartDivider": false,
+    "file": "21-sentience.mdx"
+  },
+  {
+    "id": "test-for-sentience",
+    "title": "Test for sentience",
+    "slug": "test-for-sentience",
+    "order": 22,
+    "part": 3,
+    "chapter": 15,
+    "isPartDivider": false,
+    "file": "22-test-for-sentience.mdx"
+  },
+  {
+    "id": "acknowledgements",
+    "title": "Acknowledgements",
+    "slug": "acknowledgements",
+    "order": 23,
+    "part": null,
+    "chapter": null,
+    "isPartDivider": false,
+    "file": "23-acknowledgements.mdx"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "slug": "notes",
+    "order": 24,
+    "part": null,
+    "chapter": null,
+    "isPartDivider": false,
+    "file": "24-notes.mdx"
+  },
+  {
+    "id": "glossary",
+    "title": "Glossary",
+    "slug": "glossary",
+    "order": 25,
+    "part": null,
+    "chapter": null,
+    "isPartDivider": false,
+    "file": "25-glossary.mdx"
+  },
+  {
+    "id": "references",
+    "title": "References",
+    "slug": "references",
+    "order": 26,
+    "part": null,
+    "chapter": null,
+    "isPartDivider": false,
+    "file": "26-references.mdx"
+  },
+  {
+    "id": "reviews",
+    "title": "Reviews",
+    "slug": "reviews",
+    "order": 27,
+    "part": null,
+    "chapter": null,
+    "isPartDivider": false,
+    "file": "27-reviews.mdx"
+  },
+  {
+    "id": "about-the-author",
+    "title": "About the Author",
+    "slug": "about-the-author",
+    "order": 28,
+    "part": null,
+    "chapter": null,
+    "isPartDivider": false,
+    "file": "28-about-the-author.mdx"
+  }
+]
