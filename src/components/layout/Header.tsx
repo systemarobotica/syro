@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
@@ -40,10 +41,21 @@ export function Header() {
     >
       <Link
         href="/"
-        className="font-[var(--font-heading)] text-sm tracking-[0.2em] uppercase text-foreground hover:text-accent transition-colors"
-        style={{ fontFamily: "var(--font-heading)" }}
+        className="flex items-center gap-2 text-foreground hover:text-accent transition-colors"
       >
-        Systema Robotica
+        <Image
+          src="/logo.svg"
+          alt="Systema Robotica"
+          width={20}
+          height={17}
+          className="dark:invert"
+        />
+        <span
+          className="text-sm tracking-[0.2em] uppercase"
+          style={{ fontFamily: "var(--font-heading)" }}
+        >
+          Systema Robotica
+        </span>
       </Link>
 
       <nav className="hidden md:flex items-center gap-6 ml-auto">

@@ -34,6 +34,10 @@ export const metadata: Metadata = {
   },
   description:
     "A treatise on the order and evolution of robotkind. By Ali Ahmed.",
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
   openGraph: {
     title: "Systema Robotica",
     description:
