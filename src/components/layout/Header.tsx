@@ -1,0 +1,99 @@
+"use client";
+
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useState, useEffect } from "react";
+import { Menu, X } from "lucide-react";
+import { ThemeToggle } from "./ThemeToggle";
+
+const navLinks = [
+  { href: "/read", label: "Read" },
+  { href: "/glossary", label: "Glossary" },
+  { href: "/archive", label: "Archive" },
+];
+
+export function Header() {
+  const pathname = usePathname();
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [visible, setVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentY = window.scrollY;
+      setScrolled(currentY > 10);
+      setVisible(currentY < lastScrollY || currentY < 48);
+      setLastScrollY(currentY);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [lastScrollY]);
+
+  return (
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 h-12 flex items-center px-4 md:px-8 transition-all duration-300 ${
+        scrolled
+          ? "bg-background/80 backdrop-blur-md border-b border-border"
+          : "bg-transparent"
+      } ${visible ? "translate-y-0" : "-translate-y-full"}`}
+    >
+      <Link
+        href="/"
+        className="font-[var(--font-heading)] text-sm tracking-[0.2em] uppercase text-foreground hover:text-accent transition-colors"
+        style={{ fontFamily: "var(--font-heading)" }}
+      >
+        Systema Robotica
+      </Link>
+
+      <nav className="hidden md:flex items-center gap-6 ml-auto">
+        {navLinks.map((link) => (
+          <Link
+            key={link.href}
+            href={link.href}
+            className={`text-sm transition-colors ${
+              pathname === link.href
+                ? "text-foreground"
+                : "text-muted hover:text-foreground"
+            }`}
+            style={{ fontFamily: "var(--font-heading)" }}
+          >
+            {link.label}
+          </Link>
+        ))}
+        <ThemeToggle />
+      </nav>
+
+      {/* Mobile */}
+      <div className="flex items-center gap-3 ml-auto md:hidden">
+        <ThemeToggle />
+        <button
+          onClick={() => setMobileOpen(!mobileOpen)}
+          className="text-foreground"
+          aria-label="Toggle menu"
+        >
+          {mobileOpen ? <X size={20} /> : <Menu size={20} />}
+        </button>
+      </div>
+
+      {/* Mobile menu */}
+      {mobileOpen && (
+        <div className="absolute top-12 left-0 right-0 bg-background border-b border-border p-4 md:hidden">
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              onClick={() => setMobileOpen(false)}
+              className={`block py-2 text-sm ${
+                pathname === link.href ? "text-foreground" : "text-muted"
+              }`}
+              style={{ fontFamily: "var(--font-heading)" }}
+            >
+              {link.label}
+            </Link>
+          ))}
+        </div>
+      )}
+    </header>
+  );
+}

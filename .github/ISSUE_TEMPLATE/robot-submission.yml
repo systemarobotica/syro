@@ -1,0 +1,53 @@
+name: Robot Submission
+description: Submit a robot to the Systema Robotica archive
+title: "[Robot] "
+labels: ["robot-submission"]
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Robot Model Name
+      placeholder: e.g. Atlas, Spot, Optimus
+    validations:
+      required: true
+  - type: input
+    id: marque
+    attributes:
+      label: Marque (Manufacturer)
+      placeholder: e.g. Boston Dynamics, Tesla, Honda
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Androids
+        - Bionics
+        - Vessels
+        - Automata
+        - Megatech
+        - Spectra
+    validations:
+      required: true
+  - type: input
+    id: scheme
+    attributes:
+      label: Scheme
+      placeholder: e.g. Mechanoids, Zooids, Autons, Articulators
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: Brief description of the robot
+  - type: input
+    id: website
+    attributes:
+      label: Website / Source
+      placeholder: https://
+  - type: checkboxes
+    id: fictional
+    attributes:
+      label: Is this a fictional robot?
+      options:
+        - label: "Yes, this robot is from fiction (film, TV, literature)"
