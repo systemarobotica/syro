@@ -39,3 +39,4 @@ Know a robot that should be classified? Two ways to contribute:
 
 The treatise content is licensed under CC BY 4.0.
 The website code is open source.
+
