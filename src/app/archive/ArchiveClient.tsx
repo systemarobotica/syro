@@ -55,7 +55,7 @@ function TaxonomyTreeD3({ data }: { data: TaxonomyNode }) {
 
     svg.selectAll("*").remove();
 
-    const g = svg.append("g").attr("transform", `translate(80, ${height / 2})`);
+    const g = svg.append("g").attr("transform", `translate(${width / 2}, 40)`);
 
     const root = d3.hierarchy(data);
 
@@ -68,7 +68,7 @@ function TaxonomyTreeD3({ data }: { data: TaxonomyNode }) {
       }
     });
 
-    const treeLayout = d3.tree<TaxonomyNode>().size([height - 80, width - 240]);
+    const treeLayout = d3.tree<TaxonomyNode>().size([width - 160, height - 120]);
 
     function update(source: d3.HierarchyPointNode<TaxonomyNode>) {
       const treeData = treeLayout(root as d3.HierarchyNode<TaxonomyNode>);
@@ -85,7 +85,7 @@ function TaxonomyTreeD3({ data }: { data: TaxonomyNode }) {
         .enter()
         .append("g")
         .attr("class", "node")
-        .attr("transform", `translate(${source.y},${source.x})`)
+        .attr("transform", `translate(${source.x},${source.y})`)
         .style("cursor", "pointer")
         .on("click", (_, d) => {
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -114,11 +114,9 @@ function TaxonomyTreeD3({ data }: { data: TaxonomyNode }) {
 
       nodeEnter
         .append("text")
-        .attr("dy", (d) => (d.depth === 0 ? -14 : 3))
-        .attr("x", (d) => (d.children || (d as any)._children ? -12 : 12))
-        .attr("text-anchor", (d) =>
-          d.children || (d as any)._children ? "end" : "start"
-        )
+        .attr("dy", (d) => (d.depth === 0 ? -14 : -10))
+        .attr("x", 0)
+        .attr("text-anchor", "middle")
         .attr("fill", "var(--foreground)")
         .attr("font-size", (d) => (d.depth === 0 ? "14px" : d.depth === 1 ? "12px" : "11px"))
         .attr("font-family", "var(--font-heading)")
@@ -128,8 +126,9 @@ function TaxonomyTreeD3({ data }: { data: TaxonomyNode }) {
       nodeEnter
         .filter((d) => !!(d.children || (d as any)._children))
         .append("text")
-        .attr("dy", 4)
-        .attr("x", 10)
+        .attr("dy", 14)
+        .attr("x", 0)
+        .attr("text-anchor", "middle")
         .attr("fill", "var(--muted)")
         .attr("font-size", "10px")
         .text("+");
@@ -138,7 +137,7 @@ function TaxonomyTreeD3({ data }: { data: TaxonomyNode }) {
       nodeUpdate
         .transition()
         .duration(500)
-        .attr("transform", (d) => `translate(${d.y},${d.x})`);
+        .attr("transform", (d) => `translate(${d.x},${d.y})`);
 
       node.exit().transition().duration(300).style("opacity", 0).remove();
 
@@ -158,9 +157,9 @@ function TaxonomyTreeD3({ data }: { data: TaxonomyNode }) {
         .attr(
           "d",
           d3
-            .linkHorizontal<d3.HierarchyPointLink<TaxonomyNode>, d3.HierarchyPointNode<TaxonomyNode>>()
-            .x((d) => source.y)
-            .y((d) => source.x) as unknown as string
+            .linkVertical<d3.HierarchyPointLink<TaxonomyNode>, d3.HierarchyPointNode<TaxonomyNode>>()
+            .x((d) => source.x)
+            .y((d) => source.y) as unknown as string
         );
 
       linkEnter
@@ -170,9 +169,9 @@ function TaxonomyTreeD3({ data }: { data: TaxonomyNode }) {
         .attr(
           "d",
           d3
-            .linkHorizontal<d3.HierarchyPointLink<TaxonomyNode>, d3.HierarchyPointNode<TaxonomyNode>>()
-            .x((d) => d.y)
-            .y((d) => d.x) as unknown as string
+            .linkVertical<d3.HierarchyPointLink<TaxonomyNode>, d3.HierarchyPointNode<TaxonomyNode>>()
+            .x((d) => d.x)
+            .y((d) => d.y) as unknown as string
         );
 
       link.exit().transition().duration(300).style("opacity", 0).remove();
@@ -192,7 +191,7 @@ function TaxonomyTreeD3({ data }: { data: TaxonomyNode }) {
     svg.call(zoom);
     svg.call(
       zoom.transform,
-      d3.zoomIdentity.translate(80, height / 2).scale(0.9)
+      d3.zoomIdentity.translate(width / 2, 40).scale(0.9)
     );
   }, [data]);
 
