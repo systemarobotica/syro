@@ -55,7 +55,7 @@ function TaxonomyTreeD3({ data }: { data: TaxonomyNode }) {
 
     svg.selectAll("*").remove();
 
-    const g = svg.append("g").attr("transform", `translate(${width / 2}, 40)`);
+    const g = svg.append("g");
 
     const root = d3.hierarchy(data);
 
@@ -68,7 +68,10 @@ function TaxonomyTreeD3({ data }: { data: TaxonomyNode }) {
       }
     });
 
-    const treeLayout = d3.tree<TaxonomyNode>().size([width - 160, height - 120]);
+    const treeLayout = d3
+      .tree<TaxonomyNode>()
+      .nodeSize([90, 120])
+      .separation((a, b) => (a.parent === b.parent ? 1 : 1.5));
 
     function update(source: d3.HierarchyPointNode<TaxonomyNode>) {
       const treeData = treeLayout(root as d3.HierarchyNode<TaxonomyNode>);
@@ -189,9 +192,10 @@ function TaxonomyTreeD3({ data }: { data: TaxonomyNode }) {
       });
 
     svg.call(zoom);
+    // Center the tree: root node is at x=0 after nodeSize layout
     svg.call(
       zoom.transform,
-      d3.zoomIdentity.translate(width / 2, 40).scale(0.9)
+      d3.zoomIdentity.translate(width / 2, 60).scale(0.75)
     );
   }, [data]);
 
