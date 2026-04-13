@@ -129,13 +129,15 @@ export default function LandingPage() {
         {/* Treatise links */}
         <Section label="Treatise" delay={0.1}>
           <div className="flex flex-col gap-2">
-            <Link
-              href="/read"
-              className="text-sm text-foreground hover:text-accent-blue transition-colors"
+            <a
+              href="https://www.lesswrong.com/posts/iy8XANvSr9u3czm7o/systema-robotica"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-sm text-foreground hover:text-accent-blue transition-colors"
               style={{ fontFamily: "var(--font-heading)" }}
             >
-              Read the Treatise
-            </Link>
+              Read the Treatise <ExternalLink size={12} className="text-muted" />
+            </a>
             <Link
               href="/glossary"
               className="text-sm text-foreground hover:text-accent-blue transition-colors"
