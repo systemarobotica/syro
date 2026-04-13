@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { Logo } from "./Logo";
 import { useState, useEffect } from "react";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import { ThemeToggle } from "./ThemeToggle";
@@ -47,13 +47,7 @@ export function Header() {
         href="/"
         className="flex items-center gap-2 text-foreground hover:text-accent transition-colors"
       >
-        <Image
-          src="/logo.svg"
-          alt="Systema Robotica"
-          width={20}
-          height={17}
-          className="dark:invert"
-        />
+        <Logo size={20} />
         <span
           className="text-sm tracking-[0.2em] uppercase"
           style={{ fontFamily: "var(--font-heading)" }}

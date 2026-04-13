@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
+import { Logo } from "@/components/layout/Logo";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 12 },
@@ -86,13 +86,9 @@ export default function LandingPage() {
           variants={fadeUp}
           className="mb-16"
         >
-          <Image
-            src="/logo.svg"
-            alt=""
-            width={40}
-            height={35}
-            className="mb-6 dark:invert"
-          />
+          <div className="mb-6">
+            <Logo size={40} />
+          </div>
           <h1
             className="text-2xl md:text-3xl tracking-[0.15em] uppercase mb-3"
             style={{ fontFamily: "var(--font-heading)", fontWeight: 300 }}
